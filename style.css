@@ -1,0 +1,46 @@
+/*
+* is a wild card selector
+ */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #000022;
+  background-image: url("mountains.svg");
+}
+/* element selector on body */
+body {
+  background-color: #24292e;
+}
+
+.wrapper {
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.navbar{
+  background-color: #424242;
+  width: 100%;
+  list-style-type: none;
+  overflow: auto;
+}
+
+.navbar li{
+  float: right;
+  display: inline-block;
+  padding: 25px;
+}
+
+.navbar li:hover {
+  background-color: blue;
+}
+
+.navbar a{
+  color: white;
+}
