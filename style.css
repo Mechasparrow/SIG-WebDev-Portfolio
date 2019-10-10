@@ -10,7 +10,10 @@
 body {
   background-color: #000022;
   background-image: url("mountains.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 /* element selector on body */
 body {
   background-color: #24292e;
@@ -43,4 +46,29 @@ body {
 
 .navbar a{
   color: white;
+}
+
+/* Footer */
+.footer {
+  background-color: #424242;
+  color: white;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-wrapper {
+  font-size: 2em;
+  font-family: 'Liu Jian Mao Cao', cursive;
+
+  padding-top: 80px;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.footer-left {
+  float:left;
+}
+
+.footer-right {
+  float:right;
 }
