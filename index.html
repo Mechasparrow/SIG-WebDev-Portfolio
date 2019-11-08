@@ -6,6 +6,10 @@
     <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <!--
+    <script src = "scripts/render.js"></script>
+  -->
+
   </head>
 
   <body>
@@ -19,7 +23,8 @@
     <div class = "wrapper">
       <h1>Welcome to my Michael+WebBois' &copy site </h1>
 
-        <div class = "card">
+      <div id = "cards" class = "cards-wrapper">
+        <div id = "template-card" class = "card hidden">
           <div class = "card-header">
 
           </div>
@@ -34,8 +39,8 @@
             </div>
           </div>
         </div>
-
-                <div class = "card">
+<!--
+        <div class = "card">
                   <div class = "card-header">
 
                   </div>
@@ -50,8 +55,19 @@
                     </div>
                   </div>
                 </div>
+-->
+      </div>
+
+
+      <div class = "About">
+        <h2>Past Projects</h2>
+        <img width = "300" src ="https://www.thoughtco.com/thmb/Yk2FlsVP3XCAOl-8gyBxvh7UviU=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Getty_future_in_the_past-168619593-56af9fbb5f9b58b7d01b2f58.jpg"/>
+        <p>
+          there were x, y, and z projects
+        </p>
       </div>
     </div>
+
 
     <div id = "footer" class = "footer">
       <div class = "footer-wrapper">
@@ -70,6 +86,9 @@
         </div>
       </div>
     </div>
+
+
+    <script src = "scripts/render.js"></script>
 
   </body>
 
